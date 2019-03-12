@@ -1,0 +1,20 @@
+### FOLDERS ###
+
+/_temp
+/check-out
+/components
+/img
+/includes/connect.php
+/src
+/vendor
+
+### FILES ###
+
+.htaccess
+.remote-sync.json
+composer.json
+config.json
+initialize_with_oauth.php
+initialize.php
+LICENSE
+README.md

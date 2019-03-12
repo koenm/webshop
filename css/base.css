@@ -1,0 +1,13 @@
+html {
+  font-size: 14px;
+}
+h3, h6 {
+  margin: 0 0 15px ;
+  border-bottom: 2px solid #3cbc8d;
+}
+h5 {
+  margin-bottom: 0px;
+}
+h6 {
+  font-size: 135%;
+}

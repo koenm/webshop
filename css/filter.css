@@ -1,0 +1,47 @@
+#root-level {
+  border: 1px solid rgba(0,0,0,.125);
+  border-top: 0;
+}
+.list-group-flush {
+  padding-left: 0;
+}
+.list-group-flush:first-child .list-group-item:first-child {
+  border-top: 1px solid rgba(0,0,0,.125);
+}
+.filter .list-group-item {
+  padding: 0;
+}
+.list-group-item a {
+  display: block;
+  padding: .75rem 1.25rem;
+  color: #3E3E3E;
+}
+.list-group-item a:hover {
+  text-decoration: none;
+}
+.list-group-item.active {
+  background-color: #3cbc8d;
+  border: 1px solid #3cbc8d;
+}
+.list-group-item.active a {
+  color: #fff;
+}
+.list-group-flush:last-child .list-group-item.active:last-child {
+  border-bottom: 1px solid #3cbc8d;
+}
+.filter .second-level li{
+  padding-left: 15px;
+}
+.filter .third-level li{
+  padding-left: 50px;
+}
+.table td {
+  vertical-align: middle;
+}
+.table tr.table_subhead th {
+  padding: 0.3rem 0.75rem;
+  filter: brightness(104%);
+}
+.dataTables_filter {
+  display: none;
+}
