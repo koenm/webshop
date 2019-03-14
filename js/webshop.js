@@ -1,6 +1,7 @@
 var table_search, filter_arr = [];
-$(document).ready(function () {
 
+
+$(document).ready(function () {
   if (!Cookies.get("cookie-accept")) {
     var html = `
     <div class='col-10'>Wij gebruiken cookies om ervoor te zorgen dat onze website voor de bezoeker beter werkt.
@@ -33,8 +34,6 @@ function add_cart(e, id, price) {
     $(e).prop("disabled", true);
     $(e).addClass("btn-outline-success");
     $(e).removeClass("btn-primary");
-
-    $(".cart-arrow").addClass("animate").show().delay(3000).fadeOut();
 
     $(e).html('<span class="checkmark"><i class="fas fa-check"></i></span> In winkelkar');
   });

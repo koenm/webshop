@@ -10,6 +10,7 @@
 
 ### FILES ###
 
+.DS_Store
 .htaccess
 .remote-sync.json
 composer.json

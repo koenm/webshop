@@ -22,28 +22,8 @@
   padding: 15px;
   border-radius: 5px;
 }
-.cart-arrow {
-  display: none;
-  font-size: 1.4rem;
-  color: #3E3E3E;
-  top: 0px;
-  right: calc(100vw - 1440px);
-  position: absolute;
-}
-.animate {
-  -webkit-animation:ease-in-out 10 alternate;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 0.25s;
-}
-@-webkit-keyframes run {
-    0% { left: 1420px;}
-    50%{ left : 1430px;}
-    100%{ left: 1460px;}
-}
 .footer {
-  position: fixed;
   padding: 3px;
-  bottom: 0;
   width: 1140px;
   background-color: #3cbc8d;
   color: white;

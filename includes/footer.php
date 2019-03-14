@@ -1,4 +1,8 @@
-<div class="row footer"></div>
+<div class="row footer">
+  <div class="col-12 text-center">
+    &copy; 2019 Alpha Copy
+  </div>
+</div>
 </body>
 </html>
 <script type="text/javascript">

@@ -3,7 +3,6 @@ session_start();
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(\E_ALL);
-
 $path = "/webshop";
 require_once dirname(__FILE__) . '/connect.php';
 require_once dirname(__FILE__) . '/init.php';
@@ -32,7 +31,6 @@ require_once dirname(__FILE__) . '/init.php';
     <title>Alpha Copy - Webshop</title>
   </head>
   <body>
-    <div class="cart-arrow"><i class="fas fa-arrow-circle-left"></i></div>
     <div class="container">
       <div class="row header">
       <div class="col-8">
